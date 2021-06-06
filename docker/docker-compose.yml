@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  nest:
+    build:
+      context: ./api
+      args:
+        - NODE_IMAGE=${NODE_IMAGE}
+        - PROJECT_ROOT=${ROOT}
+    tty: true
+    volumes:
+      - ../:${ROOT}
+    ports:
+      - '8000:3000'

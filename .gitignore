@@ -1,0 +1,6 @@
+# IDE dependencies
+.history
+
+# ENV
+*.env
+
