@@ -12,7 +12,7 @@ Create env file.
 # run in docker directory
 $ cd docker
 
-$ touch .env && cat .env.example >> .env
+$ cat .env.example > .env
 ```
 
 Run build.
