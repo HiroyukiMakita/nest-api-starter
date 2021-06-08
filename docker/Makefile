@@ -23,7 +23,6 @@ logs:
 build-up:
 	@$(BUILD) && $(UP)
 up:
-	$(eval CONTAINER := $(NEST))
 	@$(UP)
 down:
 	@$(DOWN)
